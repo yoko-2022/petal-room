@@ -29,7 +29,6 @@ clickEvent.addEventListener('click', function() {
             for (let i = 1; i < 5; i++) {
                 let num = Math.ceil(Math.random() * 50);
                 let numb = Math.ceil(Math.random() * 7);
-                console.log(num);
                 let scatterPetals = document.createElement('div');
                 scatterPetals.setAttribute('class', 'petals');
                 let room = document.querySelector('.room');
